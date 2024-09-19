@@ -71,7 +71,26 @@
                 </div>
             </section>
         </main>
-        <rect x="250" y="250" width="100" height="100" style="" />
+        <svg height="300" width="300">
+            <rect
+                x="300"
+                y="50"
+                height="200"
+                width="200"
+                fill="transparent"
+                stroke="black"
+                stroke-width="20"
+            />
+        </svg>
+
+        <svg height="300" width="300" version="1.1">
+            <path id="circle-motion" d="M 50 150 L 200 150 Z" stroke="black" />
+            <circle r="40" fill="red">
+                <animateMotion dur="5s" repeatCount="indefinite">
+                    <mpath xlink:href="#circle-motion" />
+                </animateMotion>
+            </circle>
+        </svg>
 
         <footer>
             <!-- Hier kommt die Fusszeile der Webseite -->
