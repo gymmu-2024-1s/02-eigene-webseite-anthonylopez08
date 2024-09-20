@@ -28,5 +28,19 @@ body {
 /* Diese Regel beschreibt wie Bilder in diesem Container dargestellt werden. */
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
-    width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. 
+    width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+
+.grid img {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 70% auto;
+}
