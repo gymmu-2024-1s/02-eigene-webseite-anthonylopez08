@@ -6,7 +6,7 @@
 
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
-    background-color: grey;
+    background-color: rgb(248, 242, 242);
 }
 
 /* Hier werden 2 Elemente nebeneinander gepackt.
