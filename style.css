@@ -33,14 +33,9 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 50% auto;
 }
 
 .grid img {
     width: 100%;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 70% auto;
 }
